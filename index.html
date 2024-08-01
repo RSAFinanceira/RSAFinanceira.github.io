@@ -1,0 +1,162 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>RSA FINANCEIRA  | Realizar simulação</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+<link href="css/all.css" rel="stylesheet" type="text/css">
+<!--<script src="/v2/lib/fontawesome-free-6.1.1-web/js/all.js"></script>-->
+<link href="css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<script async="" src="js/gtm.js"></script><script src="js/popper.min.js" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/axios.min.js"></script>
+<script src="js/ejs.min.js"></script>
+<script src="js/api_1.js"></script>
+<script src="js/mask.js"></script>
+
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TK6PFD7');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-ZC3VPMZKNJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-ZC3VPMZKNJ');
+    </script>
+
+
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-4PJ0QS62ZD"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-4PJ0QS62ZD');
+</script>
+
+<style>
+
+    #bar-logo{
+        background-color: #ffffff;
+    }
+    .btn-contact{
+        background-color: #198754 !important;
+        border-color: #198754 !important;
+        color: #ffffff !important;
+    }
+    .btn-submit{
+        background-color: #ffc107 !important;
+        border-color: #ffc107 !important;
+        color: #000000 !important;
+    }
+</style>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TK6PFD7" height="0" width="0"
+                style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="progress">
+        <div class="progress-bar  bg-success" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">
+        </div>
+    </div>
+    
+<div id="bar-logo" class="text-right mb-4 p-4">
+    <div id="logo-enterprise">
+        <div class="row">
+            <div class="col align-self-center">
+                <img <a href="https://im.ge/i/rsa.V4tmLK"><img src="https://i.im.ge/2024/07/30/V4tmLK.rsa.th.jpeg" alt="rsa" border="0"></a>
+            </div>
+            <div class="col text-end align-middle align-self-center">
+                <a href="https://wa.me/5514998212180?text=Olá gostaria de tirar uma duvida sobre *Antecipação FGTS*" class="btn btn-success btn-md rounded-pill btn-contact" target="_blank">
+                   
+			
+                </a>
+            </div>
+        </div>
+    </div>
+</div>    <div class="container w-50 pb-5 mb-5 mt-5">
+        <div class="card border-0">
+            <div class="card-header bg-white border-0">
+                <h2 class="m-0 align-middle">Simulação</h2>
+                <h4>Saque aniversário FGTS</h4>            </div>
+            <div class="card-body">
+                <p class="mt-2 font-16">Para continuar, informe-nos os dados abaixo:</p>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control  rounded-pill" id="name" placeholder="Nome completo">
+                    <label for="name">Nome completo <span class="text-danger">*</span></label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control  rounded-pill" id="cpf" placeholder="CPF">
+                    <label for="cpf">CPF <span class="text-danger">*</span></label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control  rounded-pill" id="birthDate" placeholder="Data de nascimento">
+                    <label for="birthDate">Data de nascimento <span class="text-danger">*</span></label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control  rounded-pill" id="whatsappNumber" placeholder="Telefone WhatsApp">
+                    <label for="whatsappNumber">Telefone WhatsApp <span class="text-danger">*</span></label>
+                </div>
+                <p class="m-0 mt-4 font-weight-bold">Todos os campos acima são obrigatórios</p>
+                <div class="form-check mt-4">
+                    <input class="form-check-input" type="checkbox" value="" id="term">
+                    <label class="form-check-label" for="term">
+                        Ao preencher e enviar este formulário, você autoriza que <strong>RSA FINANCEIRA</strong>
+                        entre em contato com você por celular, e-mail ou WhatsApp.
+                    </label>
+                </div>
+            </div>
+            <div class="card-footer text-center border-0 bg-white mt-5">
+                <button id="btn-simulation" class="btn btn-warning rounded-pill w-50 btn-lg btn-submit">CONTINUAR</button>
+            </div>
+        </div>
+
+            </div>
+
+
+
+
+
+
+
+
+<div class="bg-light text-center mt-5 pt-3 pb-3">
+   <strong>RSA FINANCEIRA</strong> – CNPJ: <strong>52.659.348/0001-99</strong>
+</div>
+<script src="js/api.js"></script>
+
+    <script src="js/simulation.js"></script>
+    <script>
+        const simulation = new Simulation('1985841228618bb55514fca', '2f854b4f-60bf-434e-8ed5-57256d2905fc');
+        simulation.setMinimal('');
+        simulation.setRecaptchaKey('6Lf2qYEhAAAAAOEozUzIZWDXj_h910NnW66NQipG');
+    </script>
+
+
+
+</body></html>

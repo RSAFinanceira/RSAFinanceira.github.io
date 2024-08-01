@@ -1,0 +1,120 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #ffffff !important;
+}
+.card, .card-header, .card-footer{
+    background: #ffffff !important;
+}
+
+.card-header h1,
+.card-header h2,
+.card-header h3,
+#form-proposal h4,
+.modal h2{
+    font-weight: 800;
+}
+
+.card-header h2{
+    font-size: 35px;
+}
+.card-header p{
+    font-size: 20px;
+}
+
+.font-weight-bold{
+    font-weight: bold;
+}
+
+.form-control{
+    border: 3px solid #e7e7ee;
+    background: #f5f6fa;
+}
+
+.font-12{
+    font-size: 12px !important;
+}
+.font-14{
+    font-size: 14px !important;
+}
+.font-16{
+    font-size: 16px !important;
+}
+.font-18{
+    font-size: 18px !important;
+}
+.font-20{
+    font-size: 20px !important;
+}
+
+#view .result-simulation-bank h3{
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 920px) {
+    .container{
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .w-50{
+        width: 80% !important;
+    }
+    .modal-lg{
+        max-width: 98%;
+    }
+
+    #view .result-simulation-bank p{
+        font-size: 1.2vh;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container{
+        width: 100% !important;
+    }
+    .w-50{
+        width: 100% !important;
+    }
+
+    #view .btn-link{
+        width: 100% !important;
+    }
+    #view .result-simulation-bank p{
+        font-size: 2.5vh;
+    }
+}
+
+.progress{
+    border-radius: 0 !important;
+    height: 5px !important;
+}
+
+#logo-enterprise{
+    /*border-bottom: 2px solid #dfdfdf;*/
+    /*padding-bottom: 15px;*/
+}
+
+
+.font-24{
+    font-size: 24px;
+}
+.font-22{
+    font-size: 22px;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-18{
+    font-size: 18px;
+}
+.font-16{
+    font-size: 16px;
+}
+.font-14{
+    font-size: 14px;
+}
+.font-12{
+    font-size: 12px;
+}
+.font-10{
+    font-size: 10px;
+}
